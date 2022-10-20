@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="topo">
+        <p id="titulo">To do List</p>
+        <p class="menu" onclick="cadastrar();">Cadastrar</p>
+        <p class="menu" onclick="exibir();">Exibir</p>
+    </div>
+    <div id="cad">
+        <div>
+            <p>Tarefa:</p>
+            <br />
+            <input id="texto" placeholder="Ex: Ir a Academia" />
+        </div>
+        <br />
+        <div>
+            <p>Descrição:</p>
+            <br />
+            <input id="descricao" placeholder="Ex: Treinar Bícips e Costas" />
+        </div>
+        <br />
+        <button class="button" onclick="adicionar();">Adicionar</button>
+    </div>
+    <div id="tarefas"></div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

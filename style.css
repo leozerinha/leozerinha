@@ -1,0 +1,117 @@
+@font-face {
+    font-family: SulSansRegular;
+    src: local(SulSans), url(SulSans-Regular.otf);
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+* {
+    font-family: SulSansRegular;
+    margin: 0;
+}
+
+#titulo {
+    font-weight: bold;
+}
+
+#cad {
+    width: 100%;
+    margin: 0%;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 20pt;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+#topo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    gap: 2rem;
+    padding: 30px 30px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    transition: all 0.5s;
+    font-weight: bold;
+    font-size: 50pt;
+}
+
+#cad p {
+    font-size: 45pt;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#texto {
+    width: 445px;
+    background: #e1e1e1;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25pt;
+    align-items: center;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#descricao {
+    width: 445px;
+    background: #e1e1e1;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25pt;
+    align-items: center;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+}
+
+#tarefas {
+    width: 300px;
+}
+
+.button {
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    border: none;
+    font-size: 25pt;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(122, 122, 122);
+    transition: all 0.5s;
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+
+.menu {
+    color: rgb(133, 133, 133);
+    transition: all 0.5s;
+}
+
+.menu:hover {
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3em;
+    padding: 30px;
+    font-size: 40pt;
+}
