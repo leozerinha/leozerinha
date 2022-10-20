@@ -7,13 +7,17 @@
 </head>
 
 <body>
+    
+    
     <div id="topo">
         <p id="titulo">To do List</p>
         <p class="menu" onclick="cadastrar();">Cadastrar</p>
         <p class="menu" onclick="exibir();">Exibir</p>
     </div>
     <div id="cad">
-        <div>
+     
+        <main style="display:none">  
+         <div>
             <p>Tarefa:</p>
             <br />
             <input id="texto" placeholder="Ex: Ir a Academia" />
@@ -28,6 +32,46 @@
         <button class="button" onclick="adicionar();">Adicionar</button>
     </div>
     <div id="tarefas"></div>
+    </main>
+<div id="login"> 
+
+    <imput type="text" placeholder="Nome">
+    <imput type="text" placeholder="Usuário">
+    <imput type="text" placeholder="E-Mail">
+    <imput type="password" placeholder="Senha">
+    <imput type="password" placeholder="Confirmar Senha">
+
+        <input id="Nome"
+        name="Nome" type="text" placeholder="Nome">
+
+        <input id="E-Mail"
+        name="E-Mail" type="text" placeholder="E-Mail">
+
+        <input id="Usuário"
+        name="Usuário" type="text" placeholder="Usuário">
+
+        <input id="Senha"
+        name="Senha" type="text" placeholder="Senha">
+        
+        <input id="Confirmar Senha"
+        name="Confirmar Senha" type="text" placeholder="Confirmar Senha">
+
+        <button class="Login">
+            Login
+          </button> 
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

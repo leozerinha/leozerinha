@@ -115,3 +115,18 @@ body {
     padding: 30px;
     font-size: 40pt;
 }
+
+    input {
+        margin: 0 auto 15px;
+        display: block;
+        width: 220px;
+      }
+
+      .Login {
+        display: block;
+        border: none;
+        text-align: center;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        background-color: #727272;
+      }
