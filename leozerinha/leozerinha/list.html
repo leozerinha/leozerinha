@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="topo" id="topo">
+        <p class="menu" onclick="cadastrar();">Cadastrar</p>
+        <p class="menu" onclick="exibir();">Exibir</p>
+        <p class="menu" onclick="mostrarDados()";>Dados Cadastrados</p>
+    </div>
+    <div class="cad" id="cad">
+        <div>
+            <p>Tarefa</p>
+            <br/>
+            <input id="texto" placeholder="Tarefa" />
+        </div>
+        <br/>
+        <div>
+            <p>Descrição</p>
+            <br/>
+            <input id="descricao" placeholder="Descrição" />
+        </div>
+        <br />
+        <button class="button" onclick="adicionar();">Adicionar</button>
+    </div>
+    <div id="tarefas"></div>
+    <div id="dados">
+        <p id="valor1"></p>
+        <p id="valor2"></p>
+        <p id="valor3"></p>
+        <p id="valor4"></p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
